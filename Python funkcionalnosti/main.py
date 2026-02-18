@@ -5,7 +5,7 @@ from product_manager import ProductManager
 manager = ProductManager()
 
 # Dodavanje proizvoda
-p1 = Product("Laptop", 1200, 5)
+p1 = Product("Gaming Laptop", 1200, 5)
 p2 = Product("Telefon", 800, 10)
 p3 = Product("Slušalice", 150, 15)
 
@@ -16,5 +16,4 @@ manager.add_product(p3)
 # Prikaz proizvoda
 manager.display_products()
 
-# Ukupna vrednost
-print("Ukupna vrednost inventara:", manager.total_inventory_value())
+
