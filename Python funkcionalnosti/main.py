@@ -18,3 +18,18 @@ manager.display_products()
 
 # Ukupna vrednost
 print("Ukupna vrednost inventara:", manager.total_inventory_value())
+
+from cart import Cart
+
+# Kreiranje korpe
+cart = Cart()
+
+# Dodavanje proizvoda u korpu
+cart.add_to_cart(p1)
+cart.add_to_cart(p2)
+cart.add_to_cart(p3)
+
+print("\nSadržaj korpe:")
+cart.display_cart()
+
+print("Ukupno za naplatu:", cart.calculate_total())
